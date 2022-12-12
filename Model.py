@@ -105,9 +105,9 @@ X_test=np.array(data)
 
 
 pred=model.predict(X_test) 
-##classes_x=np.argmax(pred,axis=1)
+classes_x=np.argmax(pred,axis=1)
 #Accuracy with the test data
 from sklearn.metrics import accuracy_score
-print(accuracy_score(labels, pred))
+print(accuracy_score(labels, classes_x))
 
 model.save('traffic_classifier.h5')
