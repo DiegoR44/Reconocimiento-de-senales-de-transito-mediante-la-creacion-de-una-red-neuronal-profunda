@@ -6,3 +6,6 @@ El conjunto de datos contiene más de 50.000 imágenes de diferentes señales de
 
 
 Para correr este proyecto necesitas ir a la siguiente liga https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign para tener el conjunto de datos de prueba y entrenamiento,  crear tu entorno de desarrollo py -m venv "nombre" y luego, ejectur el siguiente comando en tu consola  py -m pip install -r requirements.txt para instalar todas las librerias del  proyecto en tu entorno virtual de desarrollo.
+
+
+Una vez eso, corre el archivo Model.py para generar tu modelo entrenado, y despues utiliza el GUI hecho con tkinter para escoger la imagen que quieres clasificar.
